@@ -1,6 +1,8 @@
-# First of all
+# A calendar fully made in React
 
-Run npm install or yarn install to gel all the dependencies
+## First of all
+
+Run npm install or yarn install to get all the dependencies
 
 ## Available Scripts
 
