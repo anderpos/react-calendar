@@ -1,0 +1,14 @@
+.date-icon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 140px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.date-day {
+  font-size: 12px;
+  padding: 5px 0 0 5px;
+  font-weight: bold;
+}

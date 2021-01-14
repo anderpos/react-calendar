@@ -1,0 +1,24 @@
+@import '../../../assets/styles/default.scss';
+
+.reminder-item {
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 2px;
+  margin-bottom: 6px;
+  transition: opacity $transitionTime, border $transitionTime;
+  border: 2px solid #fff;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    border: 2px solid #000;
+  }
+
+  .reminder-time {
+    font-weight: bold;
+  }
+
+  .reminder-city {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,56 @@
+@import '../../../assets/styles/default.scss';
+
+.month-indicator {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  h4 {
+    cursor: pointer;
+  }
+}
+.weekday-indicators {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(auto, 1fr));
+  grid-template-rows: 1;
+  padding: 15px;
+  background-color: #ccc;
+  margin-top: 10px;
+
+  .weekday-indicator-icon {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
+
+.event-button {
+  border-radius: 5px;
+  padding: 10px 16px 9px;
+  font-size: 16px;
+  border: none;
+  user-select: none;
+  color: #fff;
+  transition: opacity $transitionTime;
+  width: 150px;
+  background-color: rgb(57, 126, 0);
+  margin-left: 15px;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.month-button {
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.month-arrow {
+  height: 12px;
+  margin: 0px 10px;
+}
